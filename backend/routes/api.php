@@ -22,3 +22,4 @@ Route::group(['prefix' => 'product', 'namespace' => 'App\Http\Controllers'], fun
     Route::get('/tests', [TestController::class,'cake']);
     Route::get('/tests2', [TestController::class,'cake2']);
 });
+//haizzz 
